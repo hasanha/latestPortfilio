@@ -29,12 +29,14 @@ const items = [
     title: "React Hotel App",
     img: "/hotels.png",
     desc: "I link this app with firebase ",
+    link: "https://firebasehotel.surge.sh/",
   },
   {
     id: 5,
     title: "Next Car Store App",
     img: "/carstore.png",
     desc: "I used Typescript - RapidAPI - ImaginAPI - Next framework - Headless UI - Tailwind ",
+    link: "https://car-store-next.pages.dev/",
   },
   {
     id: 6,
