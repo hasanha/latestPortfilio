@@ -17,7 +17,7 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="https://www.facebook.com/Hasan.Hamada07" target="_blank">
-            <img src="/facebook.png" alt="" />
+            <img src="/facebook.svg" alt="" />
           </a>
           <a href="www.linkedin.com/in/hasan-hamadeh" target="_blank">
             <img src="/linkedin.svg" alt="" />
