@@ -13,13 +13,13 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Hasan Hamada
+          Hasan Hamadeh
         </motion.span>
         <div className="social">
           <a href="https://www.facebook.com/Hasan.Hamada07" target="_blank">
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/hasan-hamada/" target="_blank">
+          <a href="www.linkedin.com/in/hasan-hamadeh" target="_blank">
             <img src="/linkedin.svg" alt="" />
           </a>
           <a href="https://www.xing.com/profile/hasan_hamada" target="_blank">
