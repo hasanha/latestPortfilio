@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
@@ -45,6 +45,13 @@ const items = [
     desc: "I was working with team on this project, backend and frontend, I was working on frontend with my teammate At BA Company",
     link: "https://cashbox.ba-tech.tech/login",
   },
+  {
+    id: 7,
+    title: "HR Project (Private)",
+    img: "/1.png",
+    desc: "I was working with team on this project, backend and frontend, I was working on frontend with my teammate At BA Company, using (Angular - Ngrx - Rxjs - Multi Language - Velzon - SignalR - Bootstrap - SCSS) ",
+    link: "https://drive.google.com/drive/folders/1w35D6HDPVdY3bJh5rHFSMs9QIx3jjwXo?usp=drive_link",
+  },
 ];
 
 const Single = ({ item }) => {
@@ -66,6 +73,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
+
             <a href={item.link} target="_blank" rel="noreferrer">
               <button>See Demo</button>
             </a>
